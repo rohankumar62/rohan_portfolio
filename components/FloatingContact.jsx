@@ -1,0 +1,3 @@
+export default function FloatingContact() {
+  return (<a id={"floating-whatsapp"} className={"floating contact-trigger"} data-channel={"WhatsApp"} href={"https://wa.me/916203686682?text=Hi%20Rohan%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity."} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Chat with Rohan on WhatsApp"}><svg viewBox={"0 0 24 24"} fill={"currentColor"} aria-hidden={"true"}><path d={"M20.5 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20l1.2-4.6A8.5 8.5 0 1 1 20.5 11.5Z"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"}></path><path d={"M8 7.5c0 4 2.5 6.5 6.5 7l1-2-2-1-1 1c-1.5-.6-2.4-1.5-3-3l1-1-1-2Z"} fill={"none"} stroke={"currentColor"} strokeWidth={"1.7"}></path></svg></a>);
+}
